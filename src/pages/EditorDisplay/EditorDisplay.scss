@@ -1,0 +1,15 @@
+.EditorDisplay {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  .source-images {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "left-panel right-panel";
+    width: 100%;
+    height: 100%;
+  }
+}

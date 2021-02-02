@@ -1,0 +1,24 @@
+.MenuTray {
+  position: absolute;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+
+  .menu-tray {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    width: min-content;
+    background: white;
+    border: 2px solid rgb(228, 228, 228);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+
+    & > * {
+      margin: 0 20px;
+    }
+  }
+}
